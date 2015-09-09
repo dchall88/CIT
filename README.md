@@ -30,16 +30,15 @@ CIT is licensed under the Simplified BSD License [see LICENSE for details]
 * [Piotr's Image & Video Matlab Toolbox](https://github.com/pdollar/toolbox)
 
 ### Installation
-* Download the source code
-    ```
+#### Download the source code
+
     % git clone https://github.com/dchall88/CIT.git
-    ```
 * Run compile.m
 * Download the [FPOQ dataset](http://www.vision.caltech.edu/Image_Datasets/FiftyPeopleOneQuestion/FPOQ.zip)
 * Extract into the CIT/data/Datasets directory. 
 
 ### Usage
-
+    
 Run the script example.m. It gives a simple example of how CIT can be used to track
 faces in a video. 
 
