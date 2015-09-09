@@ -15,10 +15,10 @@ For all of technical details please refer to the following publications:
 
 ### Citation
 Please cite our publications if this code is used in any work.
-'''
+```
 * "Online, Real-Time Tracking Using a Category-to-Individual Detector." 
   D.Hall and P.Perona. ECCV 2014, Zurich, Switzerland.
-'''
+```
 * "From Categories to Individual in Real Time - A Unified Boosting Approach."
   D.Hall and P.Perona. CVPR 2014, Columbus, USA.
 
