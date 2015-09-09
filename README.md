@@ -29,9 +29,9 @@ CIT is licensed under the Simplified BSD License [see LICENSE for details]
 * MATLAB 2014b or greater
 * [Piotr's Image & Video Matlab Toolbox](https://github.com/pdollar/toolbox)
 
-### Installation
+### Installatin
 * Download the source code
-||| %git clone https://github.com/dchall88/CIT.git
+    % git clone https://github.com/dchall88/CIT.git
 * Run compile.m
 * Download the [FPOQ dataset](http://www.vision.caltech.edu/Image_Datasets/FiftyPeopleOneQuestion/FPOQ.zip)
 * Extract into the CIT/data/Datasets directory. 
