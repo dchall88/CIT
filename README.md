@@ -16,10 +16,10 @@ For all of technical details please refer to the following publications:
 ### Citation
 Please cite our publications if this code is used in any work.
 
-* Online, Real-Time Tracking Using a Category-to-Individual Detector. 
+* "Online, Real-Time Tracking Using a Category-to-Individual Detector." 
   D.Hall and P.Perona. ECCV 2014, Zurich, Switzerland.
 
-* From Categories to Individual in Real Time - A Unified Boosting Approach. 
+* "From Categories to Individual in Real Time - A Unified Boosting Approach."
   D.Hall and P.Perona. CVPR 2014, Columbus, USA.
 
 ### License
@@ -30,9 +30,7 @@ CIT is licensed under the Simplified BSD License [see LICENSE for details]
 * [Piotr's Image & Video Matlab Toolbox](https://github.com/pdollar/toolbox)
 
 ### Installation
-#### Download the source code
-
-    % git clone https://github.com/dchall88/CIT.git
+* Download the source code
 * Run compile.m
 * Download the [FPOQ dataset](http://www.vision.caltech.edu/Image_Datasets/FiftyPeopleOneQuestion/FPOQ.zip)
 * Extract into the CIT/data/Datasets directory. 
