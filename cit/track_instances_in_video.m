@@ -83,18 +83,7 @@ for iFrame = 1:nFrames
     
     %% Combine Category and Individual Detections
     [Bboxes1, Patch1] = combine_category_and_instance_detections(bboxes1, patch1,  minDetectionOverlap, minCategoryDetectorScore);
-    if ~isempty(Bboxes1.both) || ~isempty(Bboxes1.instance)
-        Bboxes1.cat = []; 
-		Patch1.cat = [];
-    else
-        if size(Bboxes1.cat, 1) > 1
-            [~, maxind] = max(Bboxes1.cat(:, 5)); 
-			Bboxes1.cat = Bboxes1.cat(maxind, :); 
-            Patch1.cat = Patch1.cat(maxind, :);
-        end
-    end
-    
-    
+
     %% Track Individuals
     [Bboxes1, InstanceDetectors, active_detectors] = ...
 		track_cit(frames(iFrame), Bboxes1, Patch1, InstanceDetectors, active_detectors, TrackingParameters);
